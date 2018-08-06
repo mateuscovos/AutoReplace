@@ -7,21 +7,12 @@ import java.nio.file.*;
 import java.util.List;
 
 import java.io.FileWriter;
-import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- *
- * @author Aluno
- */
 public class Replace {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
-        
+
         Scanner in = new Scanner(System.in);
         
         System.err.print("Entre com o local do arquivo");
