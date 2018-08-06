@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package replace;
 
 import java.io.IOException;
@@ -17,7 +13,6 @@ import java.util.Scanner;
 public class Replace {
 
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
 
         Scanner in = new Scanner(System.in);
 
@@ -61,7 +56,6 @@ public class Replace {
             linha.append(System.getProperty("line.separator"));
         }
 
-        //System.out.println(linha);
         System.err.println(a + " LINHAS LIDAS\n\n");
 
         System.err.print("Diretorio para salvar: ");
